@@ -233,7 +233,7 @@ def main():
         user_stats(df, city)
 
 
-
+        # Asks user to display the raw data |interactive Part|
         display_raw_data = input('\nWould you like to see first 5 lines of raw data? Enter yes or no.\n')
         if display_raw_data.lower() == 'yes':
             i = 5
