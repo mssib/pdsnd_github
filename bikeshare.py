@@ -223,8 +223,8 @@ def main():
 
 
 
-        display_raw_data = input('\nWould you like to see first 5 lines of raw data? Enter yes or no.\n')
-        if display_raw_data.lower() == 'yes':
+        display_raw_data = input('\nWould you like to see first 5 lines of raw data? Enter yes or no.\n').lower()
+        if display_raw_data == 'yes':
             i = 5
             print(df.head(i))
             while True:
