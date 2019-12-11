@@ -19,5 +19,6 @@ the answers to some statistical questions will change due to four questions that
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Inspired by: https://github.com/udacity/pdsnd_github
+Mentored by: https://www.udacity.com/
 
