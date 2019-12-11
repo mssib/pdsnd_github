@@ -21,41 +21,30 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        try:
-            city = input("Which city would you like to analyze? Chicago, New York City or Washington: ").lower()
-            if city in CITY_DATA:
-                break
-            else:
-                print('invalid input please try Chicago, New York City or Washington')
-
-        except ValueError:
+        city = input("Which city would you like to analyze? Chicago, New York City or Washington: ").lower()
+        if city in CITY_DATA:
+            break
+        else:
             print('invalid input please try Chicago, New York City or Washington')
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        try:
-            month = input("Which month name to filter by? january, february, ... , june or type all for no month filter: ").lower()
-            if month in months or month == 'all':
-                break
-            else:
-                print('invalid input please try a month name or type all for no month filter')
-
-        except ValueError:
+        month = input("Which month name to filter by? january, february, ... , june or type all for no month filter: ").lower()
+        if month in months or month == 'all':
+            break
+        else:
             print('invalid input please try a month name or type all for no month filter')
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        try:
-            day = input("Which day of week would you like to filter by? (all, monday, tuesday, ... sunday): ").lower()
-            if day in days or day == 'all':
-                break
-            else:
-                print('invalid input please try a day name or type all for no day filter')
-
-        except ValueError:
+        day = input("Which day of week would you like to filter by? (all, monday, tuesday, ... sunday): ").lower()
+        if day in days or day == 'all':
+            break
+        else:
             print('invalid input please try a day name or type all for no day filter')
+
 
 
     print('-'*40)
