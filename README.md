@@ -19,7 +19,7 @@ the answers to some statistical questions will change due to four questions   th
 bikeshare.py
 
 ### Commit message structure
-Udacity Git Commit Message Style
+[Udacity Git Commit Message Style](https://udacity.github.io/git-styleguide/)
 
 ### Credits
 Inspired by: https://github.com/udacity/pdsnd_github  
