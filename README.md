@@ -18,6 +18,9 @@ the answers to some statistical questions will change due to four questions   th
 ### Files used
 bikeshare.py
 
+### Commit message structure
+Udacity Git Commit Message Style
+
 ### Credits
 Inspired by: https://github.com/udacity/pdsnd_github  
 Mentored by: https://www.udacity.com/
